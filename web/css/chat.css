@@ -1,0 +1,196 @@
+.input-group .form-control:not(:first-child):not(:last-child), .input-group-addon:not(:first-child):not(:last-child), .input-group-btn:not(:first-child):not(:last-child){
+	border-radius:4px 0px 0px 4px;
+}
+
+.text-center > div.emojionearea-button{
+	display:none;
+}
+
+.emojionearea .emojionearea-editor{
+	color:inherit !important;
+
+}
+
+.blueBox{
+	background-color: #c800c8 !important;
+	box-shadow: unset !important;
+	color:white !important;
+	border: none !important;
+}
+#searchBar{
+	border-radius: 0px 4px 4px 0px !important;
+}
+.input-group{
+	width:100% !important;
+}
+input[type="file"]{
+	width:300px;
+}
+
+#historyBox{
+	overflow-x:hidden;
+}
+
+#chatBox{
+	padding : 10px;
+}
+
+.messageSent
+{
+	color:white;
+	position: relative;
+	width: auto;
+	max-width:130%;
+	height: auto;
+	padding: 8px 4px 1px 4px;
+	background: #8E44AD;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 10px 0px 10px 10px;
+	margin-bottom: 8px;
+	float: right;
+	word-wrap:break-word;
+}
+
+.messageSent:after
+{
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 0px 0 9px 14px;
+	border-color: transparent #8E44AD;
+	display: block;
+	width: 0;
+	z-index: 1;
+	right: -14px;
+	top: 0px;
+}
+
+.messageRecieved
+{
+	
+	color:white;
+	position: relative;
+	width: auto;
+	max-width:130%;
+	height: auto;
+	padding: 8px 4px 1px 4px;
+	background: #BB8FCE;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 0px 10px 10px 10px;
+	margin-bottom: 8px;
+	float: left;
+
+}
+
+.messageRecieved:after
+{
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 0px 14px 9px 0;
+	border-color: transparent #BB8FCE;
+	display: block;
+	width: 0;
+	z-index: 1;
+	left: -14px;
+	top: 0px;
+	word-wrap:break-word;
+}
+
+
+.messageText > .emojionearea-button
+{
+	display: none;
+}
+
+.messagePdf a:hover
+{
+	text-decoration:none;
+}
+.messageImage
+{
+	width: -moz-available;
+	box-sizing: border-box;
+}
+
+.messageSent > .emojionearea
+{
+	background-color:inherit !important;
+	height:auto !important;
+}
+ .messageSent > .emojionearea > .emojionearea-editor
+ {
+	height:auto !important;
+	color:white !important;
+}
+
+.messageText img
+{
+	width: 2em !important;
+	height: 2em !important;
+}
+	
+.emojione
+{
+	height:2em !important;
+	width:2em !important;
+	background-image: none !important;
+}
+/*recieved chats*/
+
+#chatBox > .messageRecieved > .emojionearea
+{
+	background-color:inherit !important;
+	height:auto !important;
+}
+.messageRecieved > .emojionearea >.emojionearea-editor
+{
+	height:auto !important;
+	color:white !important;
+}
+	
+	
+/* for starred messages*/
+.message .btn-xs{
+	background-color:inherit !important;
+}
+
+.message .btn-xs:hover, .message .btn-xs:active,.message .btn-xs:focus{
+	color: yellow !important;
+}
+
+.time{
+	font-size: 10px;
+	
+}
+.glyphicon-star-empty{
+	border:none !important;
+	background-color:inherit !important;
+}
+
+.glyphicon-star-empty:hover,.glyphicon-star-empty:active,.glyphicon-star-empty:focus{
+	color:yellow;
+	border:none !important;
+	background-color:inherit !important;
+}
+.glyphicon-star{
+	border:none !important;
+	background-color:inherit !important;
+	color: yellow !important;
+}
+.glyphicon-trash{
+	border:none !important;
+	background-color:inherit !important;
+}
+
+video{
+	margin:4px;
+	border-radius: 10px;
+}
+
+.messageImage > image{
+	margin:4px;
+	border-radius:5px;
+} 
