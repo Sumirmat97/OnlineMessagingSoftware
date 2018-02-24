@@ -17,10 +17,11 @@ Individual messages can be deleted. For both of these an interactive and easy to
 Users can chat in incognito mode. The mode deletes the messages sent by the user after the user signs out.
 
 ## How do I set up ##
-* Required postgresSql and an Apache server.
+* Required postgreSql and an Apache server.
 * Create database by importing the .backup file present in the repository.
+* Change the credentials in src/getConnection.php
 * Run the apache server and run index.php file in web folder.
 
 ## Who do I talk to ? ##
 * Repo owner
-
+* email: sumir.mathur8@gmail.com
